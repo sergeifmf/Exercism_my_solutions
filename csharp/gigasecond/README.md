@@ -1,8 +1,9 @@
-# High Scores
+# Gigasecond
 
-Manage a game player's High Score list.
+Given a moment, determine the moment that would be after a gigasecond
+has passed.
 
-Your task is to build a high-score component of the classic Frogger game, one of the highest selling and addictive games of all time, and a classic of the arcade era. Your task is to write methods that return the highest score from the list, the last added score and the three highest scores.
+A gigasecond is 10^9 (1,000,000,000) seconds.
 
 ## Running the tests
 
@@ -11,7 +12,7 @@ To run the tests, run the command `dotnet test` from within the exercise directo
 Initially, only the first test will be enabled. This is to encourage you to solve the exercise one step at a time.
 Once you get the first test passing, remove the `Skip` property from the next test and work on getting that test passing.
 Once none of the tests are skipped and they are all passing, you can submit your solution 
-using `exercism submit HighScores.cs`
+using `exercism submit Gigasecond.cs`
 
 ## Further information
 
@@ -20,5 +21,7 @@ you're having trouble, please visit the exercism.io [C# language page](http://ex
 
 ## Source
 
-Tribute to the eighties' arcade game Frogger
+Chapter 9 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=09](http://pine.fm/LearnToProgram/?Chapter=09)
 
+## Submitting Incomplete Solutions
+It's possible to submit an incomplete solution so you can see how others have completed the exercise.
